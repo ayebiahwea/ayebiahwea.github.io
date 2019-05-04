@@ -14,4 +14,4 @@ The primary data source for this project is from OpenDataPhilly. The 311 Service
 Finally, I will used neighborhood data by Zillow to spatially join the requests to the neighborhoods to visualize the number of vehicle abandonment in the neighborhoods of Philadelphia.
 
 ### Required Packages:
-Python: pandas, numpy, scikit-learn, itertools, matplotlib.pyplot, IPython.display, seaborn, altair, datashader.
+Python: pandas, numpy, scikit-learn, itertools, matplotlib.pyplot, IPython.display, seaborn, altair, datashader, folium.
