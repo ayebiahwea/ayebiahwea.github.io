@@ -1,7 +1,3 @@
-## Vehicle Abandonment Incidents in Philadelphia,PA.
-
-# Required Packages:
-Python: pandas, numpy, scikit-learn, itertools, matplotlib.pyplot, IPython.display, seaborn, altair, datashader.
 
 # Introduction: Vehicle Abandonment in Philadelphia
 According to Philadelphia Police department, a motor vehicle is classified as abandoned:
@@ -17,3 +13,6 @@ Data Source:
 The primary data source for this project is from OpenDataPhilly. The 311 Service and Information requests data represents all service and information requests since December 8th, 2014 submitted to Philly311 via the 311 mobile application, calls, walk-ins, emails, the 311 website or social media. [311 Service and information Requests](https://www.opendataphilly.org/dataset/311-service-and-information requests)
 
 Finally, I will used neighborhood data by Zillow to spatially join the requests to the neighborhoods to visualize the number of vehicle abandonment in the neighborhoods of Philadelphia.
+
+### Required Packages:
+Python: pandas, numpy, scikit-learn, itertools, matplotlib.pyplot, IPython.display, seaborn, altair, datashader.
