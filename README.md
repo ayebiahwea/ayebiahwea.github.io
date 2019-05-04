@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+## Vehicle Abandonment Incidents in Philadelphia,PA.
 
-You can use the [editor on GitHub](https://github.com/ayebiahwea/ayebiahwea.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# Required Packages:
+Python: pandas, numpy, scikit-learn, itertools, matplotlib.pyplot, IPython.display, seaborn, altair, datashader.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Introduction: Vehicle Abandonment in Philadelphia
+According to Philadelphia Police department, a motor vehicle is classified as abandoned:
 
-### Markdown
+One that is physically inoperable and is left unattended on a highway or other public property for more than forty-eight (48) hours.
+Has remained illegally parked on a highway or other public property for a period of more than forty-eight (48) hours.
+That is left unattended on or along a highway or other public property for more than forty-eight (48) hours and does not bear all of the following: a. Valid registration plate. b. A current certificate of inspection. c. An ascertainable vehicle identification number.
+Has remained on private property without the consent of the owner or person in control of the property for more than twenty-four (24) hours.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Is found to have a vehicle registration and inspection sticker, both of which are expired for a period exceeding ninety (90) days.
+Data Source:
 
-```markdown
-Syntax highlighted code block
+The primary data source for this project is from OpenDataPhilly. The 311 Service and Information requests data represents all service and information requests since December 8th, 2014 submitted to Philly311 via the 311 mobile application, calls, walk-ins, emails, the 311 website or social media. [311 Service and information Requests](https://www.opendataphilly.org/dataset/311-service-and-information requests)
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ayebiahwea/ayebiahwea.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Finally, I will used neighborhood data by Zillow to spatially join the requests to the neighborhoods to visualize the number of vehicle abandonment in the neighborhoods of Philadelphia.
