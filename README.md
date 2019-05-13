@@ -7,11 +7,20 @@ According to Philadelphia Police department, a motor vehicle is classified as ab
 3. That is left unattended on or along a highway or other public property for more than forty-eight (48) hours and does not bear all of the following: a. Valid registration plate. b. A current certificate of inspection. c. An ascertainable vehicle identification number.
 4. Has remained on private property without the consent of the owner or person in control of the property for more than twenty-four (24) hours.
 5. Is found to have a vehicle registration and inspection sticker, both of which are expired for a period exceeding ninety (90) days.
-Data Source:
+
+### Data Source:
 
 The primary data source for this project is from OpenDataPhilly. The 311 Service and Information requests data represents all service and information requests since December 8th, 2014 submitted to Philly311 via the 311 mobile application, calls, walk-ins, emails, the 311 website or social media. [311 Service and information Requests](https://www.opendataphilly.org/dataset/311-service-and-information requests)
 
 Moreover, I also used housing prices from Zillow research. Finally, I will used neighborhood data by Zillow to spatially join the requests to the neighborhoods to visualize the number of vehicle abandonment in the neighborhoods of Philadelphia.
+
+### Process:
+The process of visualizing abandoned vehicles and finding the correlation between abandoned vehicles and housing prices is described extensively in the attached python script.
+
+### Results:
+
+1.Most of the abandoned vehicles reported in Philadelphia occurs between 8am until around 5pm.
+2.There is a positive correlation between abandoned vehicles and the current housing prices. Hence, as the abandoned vehicle requests go up in Philadelphia, the housing prices in Philadelphia are more likely to go up.
 
 ### Required Packages:
 Python: pandas, numpy, scikit-learn, itertools, matplotlib.pyplot, IPython.display, seaborn, altair, datashader, folium.
